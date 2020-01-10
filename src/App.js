@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout } from 'antd';
+import { Layout, Avatar } from 'antd';
 import './App.css';
 import isportisticsLogo from './img/logo.png';
 
@@ -18,6 +18,7 @@ const App = () => (
           alt="isportisticsLogo"
         />
         <HeaderForm className="header-form" />
+        <Avatar className="header-avatar" size={50} icon="user" />
       </Header>
       <Content className="antd-content">
         <MainPage />

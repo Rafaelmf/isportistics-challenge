@@ -1,11 +1,19 @@
-.app-container .layout .root {
+#root {
+  height: 100%;
+}
+.app-container,
+.layout {
   height: 100%;
 }
 
 .app-header {
+  padding: 0 20px;
   display: grid;
-  grid-template-columns: 1fr auto;
-  height: 100%;
+  grid-template-columns: 1fr 4.5fr 0.1fr;
+}
+
+.header-avatar {
+  align-self: center;
 }
 
 .header-form {
