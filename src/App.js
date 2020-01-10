@@ -4,7 +4,7 @@ import './App.css';
 import isportisticsLogo from './img/logo.png';
 
 import MainPage from './view/MainPage';
-import HeaderForm from './components/HeaderForm';
+import HeaderForm from './components/HeaderForm/HeaderForm';
 
 const { Header, Content, Footer } = Layout;
 
