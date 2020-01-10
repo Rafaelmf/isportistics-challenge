@@ -1,0 +1,14 @@
+.main-page-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  background: #fff;
+  padding: 24px;
+  min-height: 280px;
+}
+
+.title {
+  align-items: center;
+  text-align: center;
+  grid-column: span 2;
+}
