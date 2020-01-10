@@ -1,0 +1,9 @@
+.container {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.container label {
+  color: aliceblue !important;
+}

@@ -2,6 +2,16 @@
   height: 100%;
 }
 
+.app-header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  height: 100%;
+}
+
+.header-form {
+  margin: 10px;
+}
+
 .antd-content {
   padding: 0 50px;
   margin: 16px 0;

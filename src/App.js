@@ -2,19 +2,22 @@ import React from 'react';
 import { Layout } from 'antd';
 import './App.css';
 import isportisticsLogo from './img/logo.png';
+
 import MainPage from './view/MainPage';
+import HeaderForm from './components/HeaderForm';
 
 const { Header, Content, Footer } = Layout;
 
 const App = () => (
   <div className="app-container">
     <Layout className="layout">
-      <Header>
+      <Header className="app-header">
         <img
           className="img-logo"
           src={isportisticsLogo}
           alt="isportisticsLogo"
         />
+        <HeaderForm className="header-form" />
       </Header>
       <Content className="antd-content">
         <MainPage />
